@@ -9,6 +9,9 @@
 [![Lighthouse](https://img.shields.io/badge/Lighthouse-96–100-0C6B58)]()
 [![Mobile](https://img.shields.io/badge/mobile-320–414px-2C5F8A)]()
 [![Deploy](https://img.shields.io/badge/deploy-Vercel-000000?logo=vercel&logoColor=white)]()
+[![Demo](https://img.shields.io/badge/demo-tri--mandala--shakti.vercel.app-2C5F8A?logo=vercel&logoColor=white)](https://tri-mandala-shakti.vercel.app)
+
+**[Buka demo →](https://tri-mandala-shakti.vercel.app)**
 
 </div>
 
@@ -168,7 +171,11 @@ Satu-satunya temuan yang sengaja dibiarkan: logo header dilayani pada 128 px unt
 Situs ini **dibuat untuk klien** dan source code-nya disimpan privat. Repository ini adalah
 showcase: dokumentasi produk, tampilan, arsitektur, dan hasil audit.
 
-Situs **belum dibuka untuk publik** — domainnya belum diarahkan, jadi tidak ada tautan demo di sini.
+Demo berjalan di [tri-mandala-shakti.vercel.app](https://tri-mandala-shakti.vercel.app), sementara
+domain produksi `www.tms-nusantara.com` belum diarahkan ke Vercel. Karena canonical dan OG image
+dibangun dari `SITE_URL`, keduanya saat ini masih menunjuk domain tersebut — artinya pratinjau
+WhatsApp untuk tautan demo belum menampilkan gambar sampai domainnya aktif.
+
 Konten sengaja menahan diri dari klaim yang belum terverifikasi (jumlah personel, sertifikasi,
 daftar klien, harga, SLA), dan setiap foto yang merupakan ilustrasi diberi label "ilustrasi" di
 halaman.
