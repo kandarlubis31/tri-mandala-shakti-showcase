@@ -171,10 +171,10 @@ Satu-satunya temuan yang sengaja dibiarkan: logo header dilayani pada 128 px unt
 Situs ini **dibuat untuk klien** dan source code-nya disimpan privat. Repository ini adalah
 showcase: dokumentasi produk, tampilan, arsitektur, dan hasil audit.
 
-Demo berjalan di [tri-mandala-shakti.vercel.app](https://tri-mandala-shakti.vercel.app), sementara
-domain produksi `www.tms-nusantara.com` belum diarahkan ke Vercel. Karena canonical dan OG image
-dibangun dari `SITE_URL`, keduanya saat ini masih menunjuk domain tersebut — artinya pratinjau
-WhatsApp untuk tautan demo belum menampilkan gambar sampai domainnya aktif.
+Demo berjalan di [tri-mandala-shakti.vercel.app](https://tri-mandala-shakti.vercel.app) dengan
+`SITE_URL` diset ke alamat itu, jadi canonical, sitemap, dan gambar OG menunjuk ke domain yang
+sama dan pratinjau WhatsApp tampil utuh. Saat domain produksi `www.tms-nusantara.com` diarahkan
+ke Vercel, `SITE_URL` perlu diubah lalu situs di-deploy ulang.
 
 Konten sengaja menahan diri dari klaim yang belum terverifikasi (jumlah personel, sertifikasi,
 daftar klien, harga, SLA), dan setiap foto yang merupakan ilustrasi diberi label "ilustrasi" di
@@ -190,7 +190,7 @@ Untuk pertanyaan atau diskusi teknis: buka issue di repository ini.
 
 Six service lines each get their own page explaining how the work runs, what scope it covers, what input is needed, and what gets delivered. Content is limited to process rather than claims: no headcount, certifications, client list, prices, or SLAs are invented.
 
-The build is plain Astro with static output: 11 pages plus a 404, a theme that resolves before paint, per-service 1200×630 Open Graph images, JSON-LD for `Organization` and `Service`, and Lighthouse scores of 96–100 with zero layout shift. The source code is not published; this repository documents the product.
+The build is plain Astro with static output: 11 pages plus a 404, a theme that resolves before paint, per-service 1200×630 Open Graph images, JSON-LD for `Organization` and `Service`, and Lighthouse scores of 96–100 with zero layout shift. A live demo runs at [tri-mandala-shakti.vercel.app](https://tri-mandala-shakti.vercel.app). The source code is not published; this repository documents the product.
 
 ---
 
